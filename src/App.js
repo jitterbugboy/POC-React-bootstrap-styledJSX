@@ -5,14 +5,20 @@ import './App.css';
 //import Container from "./bootstrap-wrappers/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import {ContainerCustom as Container}from "./bootstrap-wrappers/ContainerCustom";
+import {ContainerCustom as Container} from "./bootstrap-wrappers/ContainerCustom";
+import {Card} from "./bootstrap-wrappers/Card";
+
 require('bootstrap/dist/css/bootstrap.css');
+
 
 function App() {
     return (
 
         <Container>
-            <Row  ><Col md={4} style={{backgroundColor:"green"}} >hallo</Col></Row>
+            <Row>
+                <Col md={4} style={{backgroundColor: "green"}}>hallo</Col>
+                <Card>What should go here</Card>
+            </Row>
 
             <div className="App">
                 <header className="App-header">

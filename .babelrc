@@ -1,4 +1,7 @@
 {
+  "presets": [
+    "react-app"
+  ],
   "plugins": [
     [
       "styled-jsx/babel",
@@ -6,7 +9,7 @@
         "plugins": [
           ["styled-jsx-plugin-sass", {
             "sassOptions": {
-              "includePaths": ["./styles"],
+              "includePaths": ["./"],
               "precision": 2
             }
           }
@@ -15,4 +18,4 @@
       }
     ]
   ]
-}*/
+}
